@@ -1,0 +1,31 @@
+            DIFFERENCE BETWEEN JAVA DEVELOPMENT KIT (JDK), JAVA RUNTIME ENVIRONMENT (JRE) AND JAVA VIRTUAL MACHINE (JVM)
+
+
+Computer languages are classified as either high-level or low-level. Machine code is the only language that computers comprehend made up of 
+ones and zeros. It's a machine-understandable low-level format. Humans, on the other hand, have difficulties comprehending binary since it is 
+made up entirely of ones and zeros. To develop machine code, we write in a human-readable format known source code and compile it to machine 
+code. The file finishes with a dot java file extension when we produce a java source code. Compiling code is the process of converting source 
+code into machine code so that people and machines may communicate.
+
+
+When we compile our source code into machine code, however, it becomes machine-specific. If we create source code on a Mac and compile it, we 
+can only run it on a Mac; the same is true for other PCs. Although the java language offers a solution for this problem, we also have an 
+intermediate stage in which we can convert our source code to byte code. Byte code is platform independent and terminates in a dot class file 
+extension. Because byte code is cross-platform, you can write your source code on one computer and read it on another, but we'll need JVM's 
+support to convert bytecode to machine code.
+
+                - Java Virtual Machine (JVM)
+
+Java Virtual Machine is an engine or a virtual machine as the name explains that helps us to run java files by converting bytecode to machine 
+code. It does this in a way that different users, such as Mac Os or Windows, can be be able to run and use the source codes that one user have 
+used in their computers.
+
+                - Java Runtime Environment (JRE)
+
+Java Runtime Environment (JRE) is a tool or a software layer that contains libraries and toolkits necessary to a java program to run. Java 
+Virtual Machine is like a container of Java Virtual Machine explained above which are then embedded in Java Development Kit.
+
+               - Java development kit (JDK)
+
+Java development kit (JDK) contains developers tools such as Java Runtime Environment, Java Virtual Machine and others which are necessary to 
+run Java application.
